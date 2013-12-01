@@ -1,4 +1,0 @@
-BibliotecaWeb
-=============
-
-Pag Web Biblioteca
