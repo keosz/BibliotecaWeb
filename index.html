@@ -1,26 +1,135 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        
-        <title>Biblioteca</title>
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
-    </head>
-    
-    <body>
+<head>
+<title>Biblioteca</title>
 
-        <header>
-            <h1>Menu Blioteca</h1>
-        </header>
-        
-        <nav>
-            <ul class="fancyNav">
-                <li id="home"><a href="#Inicio" class="homeIcon">Inicio</a></li>
-                <li id="news"><a href="#Prestamos">Prestamo</a></li>
-                <li id="about"><a href="#Libros">Libro</a></li>
-                <li id="services"><a href="#Usuarios">Usuarios</a></li>
-                <li id="contact"><a href="#Editorial">Editorial</a></li>
-            </ul>
-        </nav>            
-    </body>
+<meta name = "keywords" content = "" />
+<meta name = "description" content = "" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+
+
+
+
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+</head>
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+	<div class="wrap">
+
+	  <div class="subMenu" >
+	 	<div class="inner">
+	 		<a href="#" id="sTop" class="subNavBtn">Inicio</a> 
+			<a href="#" id="s1" class="subNavBtn">Prestamos</a>
+			<a href="#" id="s2" class="subNavBtn">Libros</a>
+			<a href="#" id="s3" class="subNavBtn">Usuarios</a>
+			<a href="#" id="s4" class="subNavBtn">Editoriales</a>
+			<a href="#" id="s5" class="subNavBtn end">Reportes</a>
+		</div>
+		
+		
+				
+	</div>
+
+
+	<div class="section sTop">
+		
+
+
+		<div class="inner">
+			<h1>Biblioteca</h1>
+			<p>Seleccione del Menu o haga una Busqueda directa en este apartado.</p>
+
+		</div>
+		<br class="clear">
+	</div>
+
+
+
+
+
+	<div class="section s1">
+		
+		<div class="inner">
+
+			<h1>Section 1</h1>
+
+		</div>
+
+	</div>
+
+	<div class="section s2">
+		<div class="inner">
+
+			<h1>Section 2</h1>
+
+		</div>
+
+	</div>
+
+	<div class="section s3">
+		<div class="inner">
+
+		<h1>Section 3</h1>
+
+		</div>
+
+	</div>
+
+	<div class="section s4">
+		<div class="inner">
+
+			<h1>Section 4</h1>
+
+		</div>
+
+	</div>
+
+	<div class="section s5">
+		<div class="inner">
+		
+		<h1>Section 5</h1>
+		
+		</div>
+
+	</div>
+
+	
+
+</div>
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9804757-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+
+</body>
 </html>
